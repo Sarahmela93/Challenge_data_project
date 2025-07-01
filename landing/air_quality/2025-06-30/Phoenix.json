@@ -1,0 +1,120 @@
+{
+  "found": true,
+  "datetime": "2025-06-30T12:00:00.000Z",
+  "index": {
+    "index_type": "meersens",
+    "index_name": "MAQI",
+    "qualification": "Moyen",
+    "icon": null,
+    "color": "#ff851b",
+    "description": "Le niveau de qualit\u00e9 de l'air pr\u00e9sentera un risque pour la sant\u00e9 pour une dur\u00e9e d'exposition sup\u00e9rieure \u00e0 quelques heures",
+    "value": 51.26,
+    "main_pollutants": [
+      "pm10"
+    ]
+  },
+  "pollutants": {
+    "co": {
+      "shortcode": "CO",
+      "name": "Monoxyde de carbone",
+      "unit": "\u00b5g/m\u00b3",
+      "found": true,
+      "value": 174.4,
+      "confidence": 5,
+      "index": {
+        "index_type": "meersens",
+        "index_name": "MAQI",
+        "qualification": "Parfait",
+        "icon": null,
+        "color": "#066b78",
+        "description": "Le niveau de qualit\u00e9 de l\u2019air ne pr\u00e9sentera pas de risque pour la sant\u00e9 pour une dur\u00e9e d\u2019exposition sup\u00e9rieure \u00e0 plusieurs d\u00e9cennies",
+        "value": 0.42
+      }
+    },
+    "no2": {
+      "shortcode": "NO2",
+      "name": "Dioxyde d'azote ",
+      "unit": "\u00b5g/m\u00b3",
+      "found": true,
+      "value": 12.2,
+      "confidence": 5,
+      "index": {
+        "index_type": "meersens",
+        "index_name": "MAQI",
+        "qualification": "Correct",
+        "icon": null,
+        "color": "#2ecc40",
+        "description": "Le niveau de qualit\u00e9 de l'air pr\u00e9sentera un risque pour la sant\u00e9 pour une dur\u00e9e d'exposition sup\u00e9rieure \u00e0 plusieurs jours",
+        "value": 34.37
+      }
+    },
+    "o3": {
+      "shortcode": "O3",
+      "name": "Ozone",
+      "unit": "\u00b5g/m\u00b3",
+      "found": true,
+      "value": 14.2,
+      "confidence": 5,
+      "index": {
+        "index_type": "meersens",
+        "index_name": "MAQI",
+        "qualification": "Parfait",
+        "icon": null,
+        "color": "#066b78",
+        "description": "Le niveau de qualit\u00e9 de l\u2019air ne pr\u00e9sentera pas de risque pour la sant\u00e9 pour une dur\u00e9e d\u2019exposition sup\u00e9rieure \u00e0 plusieurs d\u00e9cennies",
+        "value": 9.66
+      }
+    },
+    "pm10": {
+      "shortcode": "PM10",
+      "name": "Particules fines 10",
+      "unit": "\u00b5g/m\u00b3",
+      "found": true,
+      "value": 47.6,
+      "confidence": 5,
+      "index": {
+        "index_type": "meersens",
+        "index_name": "MAQI",
+        "qualification": "Moyen",
+        "icon": null,
+        "color": "#ff851b",
+        "description": "Le niveau de qualit\u00e9 de l'air pr\u00e9sentera un risque pour la sant\u00e9 pour une dur\u00e9e d'exposition sup\u00e9rieure \u00e0 quelques heures",
+        "value": 51.26
+      }
+    },
+    "pm25": {
+      "shortcode": "PM2.5",
+      "name": "Particules fines 2.5",
+      "unit": "\u00b5g/m\u00b3",
+      "found": true,
+      "value": 9.3,
+      "confidence": 5,
+      "index": {
+        "index_type": "meersens",
+        "index_name": "MAQI",
+        "qualification": "Mod\u00e9r\u00e9",
+        "icon": null,
+        "color": "#ffdc00",
+        "description": "Le niveau de qualit\u00e9 de l'air pr\u00e9sentera un risque pour la sant\u00e9 pour une dur\u00e9e d'exposition sup\u00e9rieure \u00e0 plusieurs jours",
+        "value": 40.34
+      }
+    },
+    "so2": {
+      "shortcode": "SO2",
+      "name": "Dioxyde de soufre",
+      "unit": "\u00b5g/m\u00b3",
+      "found": true,
+      "value": 2.4,
+      "confidence": 5,
+      "index": {
+        "index_type": "meersens",
+        "index_name": "MAQI",
+        "qualification": "Parfait",
+        "icon": null,
+        "color": "#066b78",
+        "description": "Le niveau de qualit\u00e9 de l\u2019air ne pr\u00e9sentera pas de risque pour la sant\u00e9 pour une dur\u00e9e d\u2019exposition sup\u00e9rieure \u00e0 plusieurs d\u00e9cennies",
+        "value": 4.07
+      }
+    }
+  }
+}
