@@ -16,7 +16,7 @@ import joblib
 MYSQL_HOST     = "localhost"
 MYSQL_PORT     = 3306
 MYSQL_USER     = "root"
-MYSQL_PASSWORD = "ngyngy10"
+MYSQL_PASSWORD = "password"
 MYSQL_DB       = "SMART_CITY"
 TABLE_NAME     = "smart_city_lights"
 
