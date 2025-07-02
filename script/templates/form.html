@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prédiction de panne lampadaire</title>
+</head>
+<body>
+    <h1>📊 Prédiction de panne de lampadaire</h1>
+
+    <h2>🔍 Types de panne</h2>
+    <ul>
+        {% for k, v in fault_types.items() %}
+        <li><strong>Type {{ k }}</strong>: {{ v }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>📋 Formulaire de données</h2>
+    <form method="post">
+        <label>Consommation (Watts): <input type="number" step="any" name="power_consumption" required></label><br>
+        <label>Tension (Volts): <input type="number" step="any" name="voltage" required></label><br>
+        <label>Fluctuations de courant (A): <input type="number" step="any" name="current_fluctuations" required></label><br>
+        <label>Température (°C): <input type="number" step="any" name="temperature" required></label><br>
+        <label>Fluctuation courant env (A): <input type="number" step="any" name="current_fluctuations_env" required></label><br>
+        <label>Conditions environnementales (True/False) :
+            <select name="environmental_cloudy">
+                <option value="True">True</option>
+                <option value="False">False</option>
+            </select>
+        </label><br>
+
+        <label>Pluvieux (True/False) :
+            <select name="environmental_rainy" required>
+                <option value="True">True</option>
+                <option value="False">False</option>
+            </select>
+        </label><br><br>
+
+
+        <button type="submit">Valider</button>
+    </form>
+
+    {% if result %}
+        <h3 style="color: green;">{{ result }}</h3>
+    {% endif %}
+</body>
+</html>

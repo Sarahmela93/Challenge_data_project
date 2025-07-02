@@ -3,10 +3,10 @@ import pandas as pd
 import time
 
 # Paramètres
-source_csv = "street_light_fault_prediction_dataset.csv"  # CSV source complet
-output_dir = "data/streaming_input"
+source_csv = "../landing/street_light_fault_prediction_dataset.csv"  # CSV source complet
+output_dir = "../landing/street-light"
 rows_per_event =8000  # nombre de lignes par fichier simulé
-interval_seconds = 2  # délai entre chaque "push" de fichier (en secondes)
+interval_seconds = 8  # délai entre chaque "push" de fichier (en secondes)
 
 # Crée le dossier cible si nécessaire
 os.makedirs(output_dir, exist_ok=True)
