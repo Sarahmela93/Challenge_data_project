@@ -7,7 +7,7 @@ PARQUET_DIR = "../cleaned/street-light"  # Dossier où sont tes fichiers .parque
 MYSQL_HOST = "localhost"
 MYSQL_PORT = 3306
 MYSQL_USER = "root"
-MYSQL_PASSWORD = "ngyngy10"
+MYSQL_PASSWORD = "password"
 MYSQL_DB = "SMART_CITY"
 TABLE_NAME = "smart_city_lights"  # Nom de la table MySQL
 
